@@ -1,3 +1,7 @@
+2015-01-14  Stefan Wallentowitz  <stefan.wallentowitz@tum.de>
+
+	* or1k/include/or1k-sprs.h: New auto-generated header file.
+
 2014-12-15  Stefan Wallentowitz  <stefan.wallentowitz@tum.de>
 
 	* or1k/Makefile.in: Build and install board libraries
