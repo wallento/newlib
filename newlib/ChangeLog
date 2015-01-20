@@ -1,3 +1,7 @@
+2015-01-19  Stefan Wallentowitz  <stefan.wallentowitz@tum.de>
+
+	* configure.host: Add extra system for OpenRISC baremetal.
+
 2015-01-14  Stefan Wallentowitz  <stefan.wallentowitz@tum.de>
 
 	* configure.host: Add extra system for OpenRISC baremetal
