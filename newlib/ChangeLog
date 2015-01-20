@@ -1,5 +1,9 @@
-2015-01-19  Stefan Wallentowitz  <stefan.wallentowitz@tum.de>
+2015-01-20  Stefan Wallentowitz  <stefan.wallentowitz@tum.de>
 
+	* libc/sys/configure.in: Add OpenRISC.
+	* libc/sys/configure: Regenerate.
+
+2015-01-20  Stefan Wallentowitz  <stefan.wallentowitz@tum.de>
 	* configure.host: Add extra system for OpenRISC baremetal.
 
 2015-01-14  Stefan Wallentowitz  <stefan.wallentowitz@tum.de>
