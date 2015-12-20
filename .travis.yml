@@ -5,5 +5,8 @@ services:
 
 before_install:
   - docker pull ubuntu
-  - docker run -d -p 127.0.0.1:80:4567 ubuntu /bin/sh -c "sudo apt-get install build-essential; ls"
-  - docker ps -a
+  - docker run ubuntu /bin/sh -c "mkdir /root/build; cd /root/build; git clone git@github.com:wallento/newlib-travis.git ."
+  - docker run ubuntu /bin/sh -c "cd /root/build; ./setup.sh"
+
+script:
+  - docker run ubuntu /bin/sh -c "cd /root/build; ./build.sh"
