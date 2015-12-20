@@ -5,7 +5,7 @@ services:
 
 before_install:
   - docker pull ubuntu
-  - docker run ubuntu /bin/sh -c "apt-get install git"
+  - docker run ubuntu /bin/sh -c "apt-get install -Y git"
   - docker run ubuntu /bin/sh -c "mkdir /root/build; cd /root/build; git clone git@github.com:wallento/newlib-travis.git ."
   - docker run ubuntu /bin/sh -c "cd /root/build; ./setup.sh"
 
