@@ -7,4 +7,4 @@ before_install:
   - docker pull ubuntu
 
 script:
-  - docker run ubuntu /bin/sh -c "cd /root/; apt-get install -y wget; wget https://github.com/wallento/newlib-travis/blob/master/build.sh; bash build.sh"
+  - docker run ubuntu /bin/sh -c "cd /root/; apt-get install -y wget; wget https://raw.githubusercontent.com/wallento/newlib-travis/master/build.sh; bash build.sh"
