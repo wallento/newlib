@@ -5,5 +5,5 @@ services:
 
 before_install:
   - docker pull ubuntu
-  - docker run -d -p 127.0.0.1:80:4567 ubuntu /bin/sh -c "sudo apt-get install build-essential"
+  - docker run -d -p 127.0.0.1:80:4567 ubuntu /bin/sh -c "sudo apt-get install build-essential; ls"
   - docker ps -a
