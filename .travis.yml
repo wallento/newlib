@@ -4,4 +4,7 @@ language: c
 
 before_install:
   - git clone https://github.com/wallento/newlib-travis.git
+  - ./newlib-travis/setup.sh
 
+script:
+  - ./newlib-travis/build.sh
