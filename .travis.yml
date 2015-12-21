@@ -12,6 +12,11 @@ addons:
     - flex
     - bison
 
+env:
+  matrix:
+   - PREFIX=/tmp/or1k-elf
+   - PREFIX=/tmp/or1k-elf-multicore BUILD_MULTICORE=1
+
 before_install:
   - git clone https://github.com/wallento/newlib-travis.git
 
